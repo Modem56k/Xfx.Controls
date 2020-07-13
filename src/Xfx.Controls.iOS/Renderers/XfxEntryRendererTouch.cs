@@ -11,6 +11,7 @@ using Xfx.Controls.iOS.Extensions;
 using Xfx.Controls.iOS.Renderers;
 using Xfx.Extensions;
 using static Xamarin.Forms.Entry;
+using Color = Xamarin.Forms.Color;
 using ColorExtensions = Xfx.Controls.iOS.Extensions.ColorExtensions;
 
 [assembly: ExportRenderer(typeof(XfxEntry), typeof(XfxEntryRendererTouch))]

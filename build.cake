@@ -38,7 +38,7 @@ Task("Build Droid")
 {
   MSBuild("./src/Xfx.Controls.Droid/Xfx.Controls.Droid.csproj", new MSBuildSettings
       {
-	      ToolVersion = MSBuildToolVersion.VS2017
+	      ToolVersion = MSBuildToolVersion.VS2019
 	  }
       .WithProperty("OutDir", droidDir.ToString())
       .SetConfiguration(configuration));
@@ -50,7 +50,7 @@ Task("Build Touch")
 {
   MSBuild("./src/Xfx.Controls.iOS/Xfx.Controls.iOS.csproj", new MSBuildSettings
       {
-	      ToolVersion = MSBuildToolVersion.VS2017,
+	      ToolVersion = MSBuildToolVersion.VS2019,
 		  MSBuildPlatform = (Cake.Common.Tools.MSBuild.MSBuildPlatform)1
 	  }
       .WithProperty("OutDir", touchDir.ToString())
@@ -63,7 +63,7 @@ Task("Build Core")
 {
   MSBuild("./src/Xfx.Controls/Xfx.Controls.csproj", new MSBuildSettings
       {
-	      ToolVersion = MSBuildToolVersion.VS2017
+	      ToolVersion = MSBuildToolVersion.VS2019
 	  }
       .WithProperty("OutDir", coreDir.ToString())
       .SetConfiguration(configuration));

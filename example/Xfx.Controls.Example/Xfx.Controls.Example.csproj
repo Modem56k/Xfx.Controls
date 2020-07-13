@@ -18,8 +18,9 @@
 	  </Compile>
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="Xamarin.Forms" Version="3.5.0.129452" />
+	  <PackageReference Include="Xamarin.Forms" Version="3.6.0.709228" />
 	</ItemGroup>
+	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadXFormsNugetUpgradeInfoBarXfxControlsExampleHideInfoBar="True" /></VisualStudio></ProjectExtensions>
 	<!--<ItemGroup>
     --><!-- https://bugzilla.xamarin.com/show_bug.cgi?id=55591 --><!--
     <None Remove="**\*.xaml" />
